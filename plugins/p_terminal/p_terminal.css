@@ -1,0 +1,62 @@
+.terminal_knopka{
+	position:fixed;
+	z-index:1001;
+	width:64px;
+	height:64px;
+	background:url(/plugins/p_terminal/terminal.png) no-repeat;
+	opacity: 0.3;
+}
+
+.terminal_knopka:hover {
+	opacity: 1;
+}
+
+.terminal_body{
+	position:fixed;
+	top: 20%;
+	left:50%;
+	margin-left: -300px;
+	z-index:1001;
+	font-family: "Lucida Grande",Verdana,"Bitstream Vera Sans",Arial,sans-serif;
+}
+
+.terminal_script{
+	width: 600px;
+	background: #000;
+	font-size: 12px;
+	color: #00ff00;
+	padding: 10px 0px 0px 15px;
+	border-radius:10px 10px 0 0;
+	-webkit-border-radius:10px 10px 0 0;
+	-moz-border-radius:10px 10px 0 0;
+	-khtml-border-radius:10px 10px 0 0;
+}
+
+.terminal_input{
+  font-family: "Lucida Grande",Verdana,"Bitstream Vera Sans",Arial,sans-serif;
+	width: 400px;
+	background: #000;
+	color:#00ff00;
+	border:none;
+	font-size: 12px;
+}
+
+.terminal_otvet{
+	width: 600px;
+	min-height: 200px;
+	background: #000;
+	font-size: 12px;
+	color:#00ff00;
+	padding: 0px 0px 10px 15px;
+	border-radius:0 0 10px 10px;
+	-webkit-border-radius:0 0 10px 10px;
+	-moz-border-radius:0 0 10px 10px;
+	-khtml-border-radius:0 0 10px 10px;
+}
+
+.terminal_root{
+	float:right;
+	color: #ff0000;
+	padding-right: 30px;
+	font-weight:bold;
+}

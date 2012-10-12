@@ -1,0 +1,1 @@
+Plugin for component "Terminal"
